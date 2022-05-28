@@ -1,0 +1,35 @@
+[
+  {
+    "TimeToMaxPressure": 2.5,
+    "TimeToDepleatePressure": 0.800000012,
+    "PressureProgressToFire": 0.075000003,
+    "MeterAngPressure": {
+      "Min": 112,
+      "Max": -108
+    },
+    "FireDelay": {
+      "Min": 0.200000003,
+      "Max": 2
+    },
+    "ForceSize": {
+      "Min": 14,
+      "Max": 16
+    },
+    "Spread": {
+      "Min": 1,
+      "Max": 7
+    },
+    "BurstShots": {
+      "Min": 1,
+      "Max": 12
+    },
+    "BurstShotDelay": 0.0799999982,
+    "NoiseScaleTarget": 0.00499999989,
+    "NoiseIntensity": 15,
+    "MeterShakeAng": 8,
+    "SyncTimeout": 2,
+    "ItemID": 73,
+    "name": "Default",
+    "internalEnabled": false
+  }
+]
