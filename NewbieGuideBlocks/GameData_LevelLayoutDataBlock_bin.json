@@ -1507,8 +1507,8 @@
           "SubComplex": 2,
           "CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_64x64_mining_exit_01.prefab",
           "CoverageMinMax": {
-            "x": 30.0,
-            "y": 30.0,
+            "x": 60.0,
+            "y": 60.0,
             "normalized": {
               "x": 0.707106769,
               "y": 0.707106769,
