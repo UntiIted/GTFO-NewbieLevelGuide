@@ -1,26 +1,5 @@
 {
-  "Headers": [
-    {
-      "AboveBlockID": 35,
-      "LabelText": "Fog group 1"
-    },
-    {
-      "AboveBlockID": 2,
-      "LabelText": "Old"
-    },
-    {
-      "AboveBlockID": 128,
-      "LabelText": "R2D1"
-    },
-    {
-      "AboveBlockID": 157,
-      "LabelText": "R5C2_L1"
-    },
-    {
-      "AboveBlockID": 167,
-      "LabelText": "R4B2"
-    }
-  ],
+  "Headers": [],
   "Blocks": [
     {
       "Enabled": true,
@@ -321,7 +300,7 @@
         "g": 0.7529412,
         "b": 0.5176471
       },
-      "FogDensity": 0.00025,
+      "FogDensity": 0.005,
       "FogAmbience": 0.0,
       "DensityNoiseDirection": {
         "x": 0.0,
@@ -332,9 +311,9 @@
       },
       "DensityNoiseSpeed": 0.034,
       "DensityNoiseScale": 0.1,
-      "DensityHeightAltitude": -0.165,
-      "DensityHeightRange": 0.5,
-      "DensityHeightMaxBoost": 0.009,
+      "DensityHeightAltitude": 5.05,
+      "DensityHeightRange": 0.0,
+      "DensityHeightMaxBoost": 0.0,
       "Infection": 0.03,
       "name": "Fog_lightest_White_low1_INFECTION_R6_B2",
       "internalEnabled": true,
