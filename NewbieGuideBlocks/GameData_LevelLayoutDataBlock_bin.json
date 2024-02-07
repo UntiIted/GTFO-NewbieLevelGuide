@@ -1,6 +1,5 @@
 {
-  "Headers": [
-  ],
+  "Headers": [],
   "Blocks": [
     {
       "ZoneAliasStart": 100,
@@ -10,11 +9,12 @@
           "AliasOverride": -1,
           "OverrideAliasPrefix": false,
           "SubSeed": 2,
-          "MarkerSubSeed": 0,
+          "MarkerSubSeed": 22,
           "LightsSubSeed": 0,
           "BulkheadDCScanSeed": 0,
           "SubComplex": 2,
           "CustomGeomorph": "",
+          "IgnoreRandomGeomorphRotation": true,
           "CoverageMinMax": {
             "x": 40.0,
             "y": 45.0,
@@ -53,6 +53,7 @@
           "ChainedPuzzleToEnter": 0,
           "IsCheckpointDoor": false,
           "PlayScannerVoiceAudio": true,
+          "SkipAutomaticProgressionObjective": false,
           "SecurityGateToEnter": 0,
           "UseStaticBioscanPointsInZone": false,
           "TurnOffAlarmOnTerminal": false,
@@ -93,7 +94,7 @@
           "AllowSmallPickupsAllocation": true,
           "AllowResourceContainerAllocation": true,
           "ForceBigPickupsAllocation": true,
-          "ConsumableDistributionInZone": 20,
+          "ConsumableDistributionInZone": 45,
           "BigPickupDistributionInZone": 5,
           "TerminalPlacements": [
             {
@@ -104,18 +105,13 @@
               },
               "AreaSeedOffset": 123,
               "MarkerSeedOffset": 123,
-              "LocalLogFiles": [
-                {
-                  "FileName": "LFT-007-GRK",
-                  "FileContent": "Mambo Media Services news wire\r\nScience Weekly\r\nTuesday June 21st, 2044\r\nLance Overmars, ESA correspondent, Kourou Spaceport\r\n\r\n**ESA To Pull Hydrostasis Funding**\r\n\r\nYesterday, the European Space Agency dropped a bomb on Kovac Defensive Services. They are severing ties and pulling all funding from the military contractor giants. They aren't cutting back. There is no measured disentanglement over the next few years. The ESA is out. Now.\r\n\r\nThis is almost certainly due to the papers that InfoLeak revealed last week. The revelation that Hydrostasis severely affects the long-term memory is bad for Kovac. The fact that they knew about it before Red Alpha and didn't tell the ESA is worse. Kovac is in the middle of a public relations nightmare, and the ESA want nothing to do with it.\r\n\r\nWhile there is no evidence (yet) that the use of Hydrostasis had anything to do with the failure of the Red Alpha mission, there are still several questions left to be answered. The investigation into the crash landing on Mars lays the blame on \"human error\", citing security concerns as the reason a more detailed explanation will not be forthcoming. There is data available for the public to review - but there are no black box recordings from on board Red Alpha in the hours leading up to its uncontrolled descent through the Martian atmosphere. Whatever the crew said or did remains a mystery to anyone outside of the ESA and will likely remain that way for the foreseeable future. Funding for the ESA remains under tight scrutiny, and it is natural to assume they would suppress any revelations that may damage their reputation.\r\n\r\nWhat is known for sure is that the crew successfully woke from Hydrostasis 72 hours before the scheduled Martian descent. There was no indication of any issues with the ship, and the automated guidance system had put them exactly where they needed to be. We know that the ship was had an internal temperature of 23 Celsius, as expected. We know that the water electrolysis system was working and producing oxygen in precise quantities. We even know what time the interior lighting system was simulating - 08:00 UTC to be precise. We know atmospheric filtering showed exactly the right amount of carbon dioxide present in the cabin, suggesting that all six of the crew were up and moving around the ship within a few hours. What we don't know is why Red Alpha went from mission normal to mission critical by 14:00 UTC that same day.\r\n\r\nFirst the ship drifted from its programmed orbit, something that could only happen if the navigation system failed, or by human intervention. Next, the communication relays stopped sending telemetry to Kourou, again either by catastrophic failure, or someone pulled the plug. At 11:57 UTC, the primary propulsion engines were ignited, and the ship started it's final, fatal journey. There, the knowledge of anyone outside of the ESA ends.\r\n\r\nWhich is why the revelation that Hydrostasis causes long-term memory damage may offer some insight into the problems on board Red Alpha on the day of\r\n\r\n//file ends.\r\n",
-                  "AttachedAudioFile": 0,
-                  "AttachedAudioByteSize": 0,
-                  "PlayerDialogToTriggerAfterAudio": 0
-                }
-              ],
+              "LocalLogFiles": [],
               "UniqueCommands": [],
               "StartingStateData": {
                 "StartingState": 0,
+                "UseCustomInfoText": false,
+                "CustomInfoText": 0,
+                "KeepShowingLocalLogCount": false,
                 "AudioEventEnter": 0,
                 "AudioEventExit": 0,
                 "PasswordProtected": false,
@@ -131,6 +127,7 @@
           "ForbidTerminalsInZone": false,
           "PowerGeneratorPlacements": [],
           "DisinfectionStationPlacements": [],
+          "DumbwaiterPlacements": [],
           "HealthMulti": 0.2,
           "HealthPlacement": {
             "Start": 0.0,
@@ -171,11 +168,12 @@
           "LocalIndex": 1,
           "AliasOverride": -1,
           "OverrideAliasPrefix": false,
-          "SubSeed": 985,
+          "SubSeed": 985100,
           "MarkerSubSeed": 32,
           "LightsSubSeed": 0,
           "BulkheadDCScanSeed": 0,
           "SubComplex": 2,
+          "IgnoreRandomGeomorphRotation": true,
           "CoverageMinMax": {
             "x": 25.0,
             "y": 25.0,
@@ -214,6 +212,7 @@
           "ChainedPuzzleToEnter": 4,
           "IsCheckpointDoor": false,
           "PlayScannerVoiceAudio": true,
+          "SkipAutomaticProgressionObjective": false,
           "SecurityGateToEnter": 0,
           "UseStaticBioscanPointsInZone": false,
           "TurnOffAlarmOnTerminal": false,
@@ -266,7 +265,7 @@
           "AllowSmallPickupsAllocation": true,
           "AllowResourceContainerAllocation": true,
           "ForceBigPickupsAllocation": false,
-          "ConsumableDistributionInZone": 1,
+          "ConsumableDistributionInZone": 62,
           "BigPickupDistributionInZone": 0,
           "TerminalPlacements": [
             {
@@ -281,6 +280,9 @@
               "UniqueCommands": [],
               "StartingStateData": {
                 "StartingState": 0,
+                "UseCustomInfoText": false,
+                "CustomInfoText": 0,
+                "KeepShowingLocalLogCount": false,
                 "AudioEventEnter": 0,
                 "AudioEventExit": 0,
                 "PasswordProtected": false,
@@ -296,6 +298,7 @@
           "ForbidTerminalsInZone": false,
           "PowerGeneratorPlacements": [],
           "DisinfectionStationPlacements": [],
+          "DumbwaiterPlacements": [],
           "HealthMulti": 0.6,
           "HealthPlacement": {
             "Start": 0.0,
@@ -326,11 +329,12 @@
           "LocalIndex": 2,
           "AliasOverride": -1,
           "OverrideAliasPrefix": false,
-          "SubSeed": 3,
+          "SubSeed": 3106,
           "MarkerSubSeed": 0,
           "LightsSubSeed": 0,
           "BulkheadDCScanSeed": 0,
           "SubComplex": 2,
+          "IgnoreRandomGeomorphRotation": true,
           "CoverageMinMax": {
             "x": 40.0,
             "y": 40.0,
@@ -369,6 +373,7 @@
           "ChainedPuzzleToEnter": 136,
           "IsCheckpointDoor": false,
           "PlayScannerVoiceAudio": true,
+          "SkipAutomaticProgressionObjective": false,
           "SecurityGateToEnter": 0,
           "UseStaticBioscanPointsInZone": false,
           "TurnOffAlarmOnTerminal": false,
@@ -409,7 +414,7 @@
           "AllowSmallPickupsAllocation": true,
           "AllowResourceContainerAllocation": true,
           "ForceBigPickupsAllocation": false,
-          "ConsumableDistributionInZone": 32,
+          "ConsumableDistributionInZone": 54,
           "BigPickupDistributionInZone": 0,
           "TerminalPlacements": [
             {
@@ -424,6 +429,9 @@
               "UniqueCommands": [],
               "StartingStateData": {
                 "StartingState": 0,
+                "UseCustomInfoText": false,
+                "CustomInfoText": 0,
+                "KeepShowingLocalLogCount": false,
                 "AudioEventEnter": 0,
                 "AudioEventExit": 0,
                 "PasswordProtected": false,
@@ -439,6 +447,7 @@
           "ForbidTerminalsInZone": false,
           "PowerGeneratorPlacements": [],
           "DisinfectionStationPlacements": [],
+          "DumbwaiterPlacements": [],
           "HealthMulti": 0.0,
           "HealthPlacement": {
             "Start": 0.0,
@@ -470,10 +479,11 @@
           "AliasOverride": -1,
           "OverrideAliasPrefix": false,
           "SubSeed": 6666,
-          "MarkerSubSeed": 0,
+          "MarkerSubSeed": 22,
           "LightsSubSeed": 0,
           "BulkheadDCScanSeed": 0,
           "SubComplex": 2,
+          "IgnoreRandomGeomorphRotation": true,
           "CoverageMinMax": {
             "x": 10.0,
             "y": 10.0,
@@ -512,6 +522,7 @@
           "ChainedPuzzleToEnter": 47,
           "IsCheckpointDoor": false,
           "PlayScannerVoiceAudio": true,
+          "SkipAutomaticProgressionObjective": false,
           "SecurityGateToEnter": 0,
           "UseStaticBioscanPointsInZone": false,
           "TurnOffAlarmOnTerminal": false,
@@ -544,7 +555,7 @@
           "AllowSmallPickupsAllocation": true,
           "AllowResourceContainerAllocation": true,
           "ForceBigPickupsAllocation": false,
-          "ConsumableDistributionInZone": 1,
+          "ConsumableDistributionInZone": 62,
           "BigPickupDistributionInZone": 0,
           "TerminalPlacements": [
             {
@@ -555,18 +566,13 @@
               },
               "AreaSeedOffset": 0,
               "MarkerSeedOffset": 0,
-              "LocalLogFiles": [
-                {
-                  "FileName": "UGG-97T-JAK",
-                  "FileContent": "Private encryption//UMS mail server\r\nFrom: Gustavo Peres\r\nTo: Andrew Clinton B035\r\nDate: April 30th 2049\r\nSubject:\tUMS report/Evacuation update\r\nAttachment: evac_rep_stats_apr2049\r\n\r\nMr. Clinton B035,\r\n\r\nI’m forwarding you a report from the Secretario de Seguridad regarding the evacuations in Yucatan. As I have previously asserted, we ARE moving people, but it will take some time. I appreciate the relationship we have and wish to continue our mutually beneficial arrangement, but you will have to be patient. There are millions of people to organize, and the area is under intense scrutiny from not only my government, but the United States as well. Due to the aid we have received from the US, they have boots on the ground in Merida and are well informed of which agencies are involved in the cleanup process. Having your people there will only confuse matters and potentially spoil our agenda.\r\n\r\nOnce we are no longer under the microscope and there are only MY people working the problem, I will begin planting the seeds further up the chain. For now, know that the area is being cleared and when the time is right, you will be the first to know. I suggest you prepare the bid documentation now, so the acceptance process is not encumbered by needless bureaucracy. I have no control over that side of things.\r\n\r\nAlso, thank you for your contact at KDS. I will be calling him soon to see if we can arrange additional help with the evacuation procedure.\r\n\r\nYours in earnest,\r\n\r\nGustavo\r\n",
-                  "AttachedAudioFile": 0,
-                  "AttachedAudioByteSize": 0,
-                  "PlayerDialogToTriggerAfterAudio": 0
-                }
-              ],
+              "LocalLogFiles": [],
               "UniqueCommands": [],
               "StartingStateData": {
                 "StartingState": 0,
+                "UseCustomInfoText": false,
+                "CustomInfoText": 0,
+                "KeepShowingLocalLogCount": false,
                 "AudioEventEnter": 0,
                 "AudioEventExit": 0,
                 "PasswordProtected": false,
@@ -582,6 +588,7 @@
           "ForbidTerminalsInZone": false,
           "PowerGeneratorPlacements": [],
           "DisinfectionStationPlacements": [],
+          "DumbwaiterPlacements": [],
           "HealthMulti": 0.0,
           "HealthPlacement": {
             "Start": 0.0,
@@ -613,11 +620,12 @@
           "AliasOverride": -1,
           "OverrideAliasPrefix": false,
           "SubSeed": 0,
-          "MarkerSubSeed": 0,
+          "MarkerSubSeed": 22,
           "LightsSubSeed": 0,
           "BulkheadDCScanSeed": 0,
           "SubComplex": 2,
           "CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Storage/geo_64x64_mining_storage_hub_HA_01.prefab",
+          "IgnoreRandomGeomorphRotation": true,
           "CoverageMinMax": {
             "x": 30.0,
             "y": 35.0,
@@ -666,6 +674,7 @@
           "ChainedPuzzleToEnter": 0,
           "IsCheckpointDoor": false,
           "PlayScannerVoiceAudio": false,
+          "SkipAutomaticProgressionObjective": false,
           "SecurityGateToEnter": 0,
           "UseStaticBioscanPointsInZone": false,
           "TurnOffAlarmOnTerminal": false,
@@ -699,7 +708,7 @@
           "AllowSmallPickupsAllocation": true,
           "AllowResourceContainerAllocation": true,
           "ForceBigPickupsAllocation": false,
-          "ConsumableDistributionInZone": 20,
+          "ConsumableDistributionInZone": 45,
           "BigPickupDistributionInZone": 0,
           "TerminalPlacements": [
             {
@@ -710,18 +719,13 @@
               },
               "AreaSeedOffset": 0,
               "MarkerSeedOffset": 0,
-              "LocalLogFiles": [
-                {
-                  "FileName": "4HT-34R-K890",
-                  "FileContent": ">>RECORDING 4HT-34R-K890 START\r",
-                  "AttachedAudioFile": 3417550645,
-                  "AttachedAudioByteSize": 4165000,
-                  "PlayerDialogToTriggerAfterAudio": 0
-                }
-              ],
+              "LocalLogFiles": [],
               "UniqueCommands": [],
               "StartingStateData": {
                 "StartingState": 0,
+                "UseCustomInfoText": false,
+                "CustomInfoText": 0,
+                "KeepShowingLocalLogCount": false,
                 "AudioEventEnter": 0,
                 "AudioEventExit": 0,
                 "PasswordProtected": false,
@@ -737,6 +741,7 @@
           "ForbidTerminalsInZone": false,
           "PowerGeneratorPlacements": [],
           "DisinfectionStationPlacements": [],
+          "DumbwaiterPlacements": [],
           "HealthMulti": 0.6,
           "HealthPlacement": {
             "Start": 0.0,
@@ -768,10 +773,11 @@
           "AliasOverride": -1,
           "OverrideAliasPrefix": false,
           "SubSeed": 2,
-          "MarkerSubSeed": 0,
+          "MarkerSubSeed": 22,
           "LightsSubSeed": 0,
           "BulkheadDCScanSeed": 0,
           "SubComplex": 2,
+          "IgnoreRandomGeomorphRotation": true,
           "CoverageMinMax": {
             "x": 50.0,
             "y": 55.0,
@@ -810,6 +816,7 @@
           "ChainedPuzzleToEnter": 0,
           "IsCheckpointDoor": true,
           "PlayScannerVoiceAudio": false,
+          "SkipAutomaticProgressionObjective": false,
           "SecurityGateToEnter": 0,
           "UseStaticBioscanPointsInZone": false,
           "TurnOffAlarmOnTerminal": false,
@@ -850,7 +857,7 @@
           "AllowSmallPickupsAllocation": true,
           "AllowResourceContainerAllocation": true,
           "ForceBigPickupsAllocation": false,
-          "ConsumableDistributionInZone": 27,
+          "ConsumableDistributionInZone": 58,
           "BigPickupDistributionInZone": 0,
           "TerminalPlacements": [
             {
@@ -861,10 +868,22 @@
               },
               "AreaSeedOffset": 0,
               "MarkerSeedOffset": 0,
-              "LocalLogFiles": [],
+              "LocalLogFiles": [
+                {
+                  "FileName": "CJ9-GVT-ERB",
+                  "FileContent": 3570860951,
+                  "FileContentOriginalLanguage": 1,
+                  "AttachedAudioFile": 2277753092,
+                  "AttachedAudioByteSize": 66234,
+                  "PlayerDialogToTriggerAfterAudio": 0
+                }
+              ],
               "UniqueCommands": [],
               "StartingStateData": {
-                "StartingState": 0,
+                "StartingState": 10,
+                "UseCustomInfoText": false,
+                "CustomInfoText": 0,
+                "KeepShowingLocalLogCount": false,
                 "AudioEventEnter": 0,
                 "AudioEventExit": 0,
                 "PasswordProtected": false,
@@ -880,6 +899,7 @@
           "ForbidTerminalsInZone": false,
           "PowerGeneratorPlacements": [],
           "DisinfectionStationPlacements": [],
+          "DumbwaiterPlacements": [],
           "HealthMulti": 0.4,
           "HealthPlacement": {
             "Start": 0.0,
@@ -910,12 +930,13 @@
           "LocalIndex": 6,
           "AliasOverride": -1,
           "OverrideAliasPrefix": false,
-          "SubSeed": 0,
-          "MarkerSubSeed": 11,
+          "SubSeed": 2,
+          "MarkerSubSeed": 22,
           "LightsSubSeed": 0,
-          "BulkheadDCScanSeed": 0,
+          "BulkheadDCScanSeed": 13,
           "SubComplex": 2,
           "CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Storage/geo_64x64_mining_storage_hub_VS_01.prefab",
+          "IgnoreRandomGeomorphRotation": true,
           "CoverageMinMax": {
             "x": 20.0,
             "y": 25.0,
@@ -954,6 +975,7 @@
           "ChainedPuzzleToEnter": 4,
           "IsCheckpointDoor": false,
           "PlayScannerVoiceAudio": true,
+          "SkipAutomaticProgressionObjective": false,
           "SecurityGateToEnter": 0,
           "UseStaticBioscanPointsInZone": false,
           "TurnOffAlarmOnTerminal": false,
@@ -994,7 +1016,7 @@
           "AllowSmallPickupsAllocation": true,
           "AllowResourceContainerAllocation": true,
           "ForceBigPickupsAllocation": false,
-          "ConsumableDistributionInZone": 20,
+          "ConsumableDistributionInZone": 45,
           "BigPickupDistributionInZone": 0,
           "TerminalPlacements": [
             {
@@ -1003,20 +1025,15 @@
                 "Middle": 0.0,
                 "End": 0.0
               },
-              "AreaSeedOffset": 0,
-              "MarkerSeedOffset": 1,
-              "LocalLogFiles": [
-                {
-                  "FileName": "EBDT-55TA-X12",
-                  "FileContent": "Private encryption//SMC mail server\r\nFrom: Andrew Clinton B035\r\nTo: Janson Davies A001\r\nDate: September 03rd 2049\r\nSubject:\tFound it\r\n\r\nMr. Davies,\r\n\r\nI wanted to confirm that we have indeed found what we’re looking for. There’s a sediment layer running from dig site 10F (near Chicxulub) out to a few kilometers off the coast (we’re calling it La Vena internally). The vein looks rich, and the scans confirm there’s a huge deposit at the end. Our engineers ran the numbers on it and if the scan data is correct, we’re looking at a mass that’s 1.5 - 2k miles wide, and up to 4k down. Our scans can’t penetrate all the way through the mass – it’s too dense. We’ll have to dig to get accurate data.\r\n\r\nIf the density is consistent, we could be looking at upwards of 4,000 tons. A conservative estimate puts that at 300 billion at today’s Iridium price.\r\n\r\nWe have a plan to reach it, though the structure will probably send the Greens into a frenzy, so we may need some PR help with that? \r\n\r\nAnyway, I’ll send you the blueprints of Garganta later this week – we’re just putting the final touches on it.\r\n\r\nBack to it,\r\n\r\nAndrew.\r\n",
-                  "AttachedAudioFile": 0,
-                  "AttachedAudioByteSize": 0,
-                  "PlayerDialogToTriggerAfterAudio": 0
-                }
-              ],
+              "AreaSeedOffset": 12,
+              "MarkerSeedOffset": 12,
+              "LocalLogFiles": [],
               "UniqueCommands": [],
               "StartingStateData": {
                 "StartingState": 0,
+                "UseCustomInfoText": false,
+                "CustomInfoText": 0,
+                "KeepShowingLocalLogCount": false,
                 "AudioEventEnter": 0,
                 "AudioEventExit": 0,
                 "PasswordProtected": false,
@@ -1032,6 +1049,7 @@
           "ForbidTerminalsInZone": false,
           "PowerGeneratorPlacements": [],
           "DisinfectionStationPlacements": [],
+          "DumbwaiterPlacements": [],
           "HealthMulti": 0.0,
           "HealthPlacement": {
             "Start": 0.0,
@@ -1062,11 +1080,12 @@
           "LocalIndex": 7,
           "AliasOverride": -1,
           "OverrideAliasPrefix": false,
-          "SubSeed": 0,
-          "MarkerSubSeed": 2,
+          "SubSeed": 126,
+          "MarkerSubSeed": 22,
           "LightsSubSeed": 0,
           "BulkheadDCScanSeed": 0,
           "SubComplex": 2,
+          "IgnoreRandomGeomorphRotation": true,
           "CoverageMinMax": {
             "x": 35.0,
             "y": 40.0,
@@ -1105,6 +1124,7 @@
           "ChainedPuzzleToEnter": 136,
           "IsCheckpointDoor": false,
           "PlayScannerVoiceAudio": true,
+          "SkipAutomaticProgressionObjective": false,
           "SecurityGateToEnter": 0,
           "UseStaticBioscanPointsInZone": false,
           "TurnOffAlarmOnTerminal": false,
@@ -1157,13 +1177,13 @@
           "AllowSmallPickupsAllocation": true,
           "AllowResourceContainerAllocation": true,
           "ForceBigPickupsAllocation": false,
-          "ConsumableDistributionInZone": 1,
+          "ConsumableDistributionInZone": 62,
           "BigPickupDistributionInZone": 0,
           "TerminalPlacements": [
             {
               "PlacementWeights": {
                 "Start": 0.0,
-                "Middle": 0.0,
+                "Middle": 1233.0,
                 "End": 0.0
               },
               "AreaSeedOffset": 0,
@@ -1172,6 +1192,9 @@
               "UniqueCommands": [],
               "StartingStateData": {
                 "StartingState": 0,
+                "UseCustomInfoText": false,
+                "CustomInfoText": 0,
+                "KeepShowingLocalLogCount": false,
                 "AudioEventEnter": 0,
                 "AudioEventExit": 0,
                 "PasswordProtected": false,
@@ -1189,14 +1212,15 @@
           "DisinfectionStationPlacements": [
             {
               "PlacementWeights": {
-                "Start": 1000.0,
-                "Middle": 0.0,
+                "Start": 0.0,
+                "Middle": 1234.0,
                 "End": 0.0
               },
-              "AreaSeedOffset": 0,
-              "MarkerSeedOffset": 0
+              "AreaSeedOffset": 3,
+              "MarkerSeedOffset": 3
             }
           ],
+          "DumbwaiterPlacements": [],
           "HealthMulti": 0.6,
           "HealthPlacement": {
             "Start": 0.0,
@@ -1228,10 +1252,11 @@
           "AliasOverride": -1,
           "OverrideAliasPrefix": false,
           "SubSeed": 1,
-          "MarkerSubSeed": 0,
+          "MarkerSubSeed": 22,
           "LightsSubSeed": 0,
           "BulkheadDCScanSeed": 0,
           "SubComplex": 2,
+          "IgnoreRandomGeomorphRotation": true,
           "CoverageMinMax": {
             "x": 40.0,
             "y": 45.0,
@@ -1280,6 +1305,7 @@
           "ChainedPuzzleToEnter": 136,
           "IsCheckpointDoor": false,
           "PlayScannerVoiceAudio": true,
+          "SkipAutomaticProgressionObjective": false,
           "SecurityGateToEnter": 0,
           "UseStaticBioscanPointsInZone": false,
           "TurnOffAlarmOnTerminal": false,
@@ -1320,7 +1346,7 @@
           "AllowSmallPickupsAllocation": true,
           "AllowResourceContainerAllocation": true,
           "ForceBigPickupsAllocation": false,
-          "ConsumableDistributionInZone": 1,
+          "ConsumableDistributionInZone": 62,
           "BigPickupDistributionInZone": 0,
           "TerminalPlacements": [
             {
@@ -1331,10 +1357,22 @@
               },
               "AreaSeedOffset": 0,
               "MarkerSeedOffset": 0,
-              "LocalLogFiles": [],
+              "LocalLogFiles": [
+                {
+                  "FileName": "WPL-464-BAC",
+                  "FileContent": 2010423636,
+                  "FileContentOriginalLanguage": 1,
+                  "AttachedAudioFile": 0,
+                  "AttachedAudioByteSize": 0,
+                  "PlayerDialogToTriggerAfterAudio": 0
+                }
+              ],
               "UniqueCommands": [],
               "StartingStateData": {
                 "StartingState": 0,
+                "UseCustomInfoText": false,
+                "CustomInfoText": 0,
+                "KeepShowingLocalLogCount": false,
                 "AudioEventEnter": 0,
                 "AudioEventExit": 0,
                 "PasswordProtected": false,
@@ -1350,6 +1388,7 @@
           "ForbidTerminalsInZone": false,
           "PowerGeneratorPlacements": [],
           "DisinfectionStationPlacements": [],
+          "DumbwaiterPlacements": [],
           "HealthMulti": 0.0,
           "HealthPlacement": {
             "Start": 0.0,
@@ -1381,11 +1420,12 @@
           "AliasOverride": -1,
           "OverrideAliasPrefix": false,
           "SubSeed": 4,
-          "MarkerSubSeed": 0,
+          "MarkerSubSeed": 22,
           "LightsSubSeed": 0,
           "BulkheadDCScanSeed": 0,
           "SubComplex": 2,
           "CustomGeomorph": "",
+          "IgnoreRandomGeomorphRotation": true,
           "CoverageMinMax": {
             "x": 20.0,
             "y": 25.0,
@@ -1424,6 +1464,7 @@
           "ChainedPuzzleToEnter": 4,
           "IsCheckpointDoor": false,
           "PlayScannerVoiceAudio": true,
+          "SkipAutomaticProgressionObjective": false,
           "SecurityGateToEnter": 0,
           "UseStaticBioscanPointsInZone": false,
           "TurnOffAlarmOnTerminal": false,
@@ -1464,12 +1505,13 @@
           "AllowSmallPickupsAllocation": true,
           "AllowResourceContainerAllocation": true,
           "ForceBigPickupsAllocation": true,
-          "ConsumableDistributionInZone": 1,
+          "ConsumableDistributionInZone": 62,
           "BigPickupDistributionInZone": 0,
           "TerminalPlacements": [],
           "ForbidTerminalsInZone": true,
           "PowerGeneratorPlacements": [],
           "DisinfectionStationPlacements": [],
+          "DumbwaiterPlacements": [],
           "HealthMulti": 0.2,
           "HealthPlacement": {
             "Start": 0.0,
@@ -1501,14 +1543,15 @@
           "AliasOverride": -1,
           "OverrideAliasPrefix": false,
           "SubSeed": 1,
-          "MarkerSubSeed": 0,
+          "MarkerSubSeed": 22,
           "LightsSubSeed": 0,
           "BulkheadDCScanSeed": 0,
           "SubComplex": 2,
           "CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_64x64_mining_exit_01.prefab",
+          "IgnoreRandomGeomorphRotation": true,
           "CoverageMinMax": {
-            "x": 60.0,
-            "y": 60.0,
+            "x": 30.0,
+            "y": 30.0,
             "normalized": {
               "x": 0.707106769,
               "y": 0.707106769,
@@ -1544,6 +1587,7 @@
           "ChainedPuzzleToEnter": 0,
           "IsCheckpointDoor": false,
           "PlayScannerVoiceAudio": false,
+          "SkipAutomaticProgressionObjective": false,
           "SecurityGateToEnter": 0,
           "UseStaticBioscanPointsInZone": false,
           "TurnOffAlarmOnTerminal": false,
@@ -1576,36 +1620,13 @@
           "AllowSmallPickupsAllocation": true,
           "AllowResourceContainerAllocation": true,
           "ForceBigPickupsAllocation": false,
-          "ConsumableDistributionInZone": 1,
+          "ConsumableDistributionInZone": 62,
           "BigPickupDistributionInZone": 0,
-          "TerminalPlacements": [
-            {
-              "PlacementWeights": {
-                "Start": 0.0,
-                "Middle": 0.0,
-                "End": 0.0
-              },
-              "AreaSeedOffset": 0,
-              "MarkerSeedOffset": 0,
-              "LocalLogFiles": [],
-              "UniqueCommands": [],
-              "StartingStateData": {
-                "StartingState": 0,
-                "AudioEventEnter": 0,
-                "AudioEventExit": 0,
-                "PasswordProtected": false,
-                "PasswordHintText": "Password Required.",
-                "GeneratePassword": false,
-                "PasswordPartCount": 1,
-                "ShowPasswordLength": true,
-                "ShowPasswordPartPositions": false,
-                "TerminalZoneSelectionDatas": []
-              }
-            }
-          ],
+          "TerminalPlacements": [],
           "ForbidTerminalsInZone": true,
           "PowerGeneratorPlacements": [],
           "DisinfectionStationPlacements": [],
+          "DumbwaiterPlacements": [],
           "HealthMulti": 0.0,
           "HealthPlacement": {
             "Start": 0.0,
@@ -1637,11 +1658,12 @@
           "AliasOverride": -1,
           "OverrideAliasPrefix": false,
           "SubSeed": 2,
-          "MarkerSubSeed": 0,
+          "MarkerSubSeed": 22,
           "LightsSubSeed": 0,
           "BulkheadDCScanSeed": 0,
           "SubComplex": 0,
           "CustomGeomorph": "",
+          "IgnoreRandomGeomorphRotation": true,
           "CoverageMinMax": {
             "x": 65.0,
             "y": 65.0,
@@ -1677,9 +1699,10 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 165,
+          "ChainedPuzzleToEnter": 300,
           "IsCheckpointDoor": false,
           "PlayScannerVoiceAudio": true,
+          "SkipAutomaticProgressionObjective": false,
           "SecurityGateToEnter": 0,
           "UseStaticBioscanPointsInZone": false,
           "TurnOffAlarmOnTerminal": false,
@@ -1739,11 +1762,13 @@
               },
               "AreaSeedOffset": 123,
               "MarkerSeedOffset": 123,
-              "LocalLogFiles": [
-              ],
+              "LocalLogFiles": [],
               "UniqueCommands": [],
               "StartingStateData": {
                 "StartingState": 0,
+                "UseCustomInfoText": false,
+                "CustomInfoText": 0,
+                "KeepShowingLocalLogCount": false,
                 "AudioEventEnter": 0,
                 "AudioEventExit": 0,
                 "PasswordProtected": false,
@@ -1763,11 +1788,13 @@
               },
               "AreaSeedOffset": 123,
               "MarkerSeedOffset": 123,
-              "LocalLogFiles": [
-              ],
+              "LocalLogFiles": [],
               "UniqueCommands": [],
               "StartingStateData": {
                 "StartingState": 0,
+                "UseCustomInfoText": false,
+                "CustomInfoText": 0,
+                "KeepShowingLocalLogCount": false,
                 "AudioEventEnter": 0,
                 "AudioEventExit": 0,
                 "PasswordProtected": false,
@@ -1783,25 +1810,26 @@
           "ForbidTerminalsInZone": false,
           "PowerGeneratorPlacements": [],
           "DisinfectionStationPlacements": [],
-          "HealthMulti": 2.0,
+          "DumbwaiterPlacements": [],
+          "HealthMulti": 0.2,
           "HealthPlacement": {
             "Start": 0.0,
             "Middle": 0.0,
             "End": 0.0
           },
-          "WeaponAmmoMulti": 2.0,
+          "WeaponAmmoMulti": 0.6,
           "WeaponAmmoPlacement": {
             "Start": 0.0,
             "Middle": 0.0,
             "End": 0.0
           },
-          "ToolAmmoMulti": 2.0,
+          "ToolAmmoMulti": 0.4,
           "ToolAmmoPlacement": {
             "Start": 0.0,
             "Middle": 0.0,
             "End": 0.0
           },
-          "DisinfectionMulti": 2.0,
+          "DisinfectionMulti": 1.0,
           "DisinfectionPlacement": {
             "Start": 0.0,
             "Middle": 0.0,
@@ -1810,9 +1838,9 @@
           "StaticSpawnDataContainers": []
         }
       ],
-      "name": "Newbie guide B1 main (R6B2 Contamination modified)",
+      "name": "Newbie guide B1 main (ALT R6B2 Contamination modified)",
       "internalEnabled": true,
-      "persistentID": 162
+      "persistentID": 1993990524
     },
     {
       "ZoneAliasStart": 200,
@@ -1827,6 +1855,7 @@
           "BulkheadDCScanSeed": 0,
           "SubComplex": 2,
           "CustomGeomorph": "",
+          "IgnoreRandomGeomorphRotation": true,
           "CoverageMinMax": {
             "x": 10.0,
             "y": 15.0
@@ -1922,6 +1951,7 @@
           "ForbidTerminalsInZone": false,
           "PowerGeneratorPlacements": [],
           "DisinfectionStationPlacements": [],
+          "DumbwaiterPlacements": [],
           "HealthMulti": 0.0,
           "HealthPlacement": {
             "Start": 0.0,
@@ -1959,6 +1989,7 @@
           "BulkheadDCScanSeed": 0,
           "SubComplex": 2,
           "CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_I_HA_05.prefab",
+          "IgnoreRandomGeomorphRotation": true,
           "CoverageMinMax": {
             "x": 30.0,
             "y": 30.0
@@ -2054,6 +2085,7 @@
           "ForbidTerminalsInZone": false,
           "PowerGeneratorPlacements": [],
           "DisinfectionStationPlacements": [],
+          "DumbwaiterPlacements": [],
           "HealthMulti": 0.0,
           "HealthPlacement": {
             "Start": 0.0,
@@ -2091,6 +2123,7 @@
           "BulkheadDCScanSeed": 0,
           "SubComplex": 2,
           "CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_64x64_mining_reactor_open_HA_01.prefab",
+          "IgnoreRandomGeomorphRotation": true,
           "CoverageMinMax": {
             "x": 40.0,
             "y": 45.0
@@ -2186,6 +2219,7 @@
           "ForbidTerminalsInZone": false,
           "PowerGeneratorPlacements": [],
           "DisinfectionStationPlacements": [],
+          "DumbwaiterPlacements": [],
           "HealthMulti": 0.0,
           "HealthPlacement": {
             "Start": 0.0,
